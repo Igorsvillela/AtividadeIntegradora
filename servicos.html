@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Conheça os serviços de organização, otimização e acompanhamento de bancos de dados da IV Tech.">
+  <title>IV Tech | Serviços</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/estilos.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-md container" aria-label="Menu principal">
+      <a class="navbar-brand marca" href="index.html"><img src="assets/logo.svg" alt="" width="42" height="42"> <span>IV Tech</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto gap-md-3">
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="servicos.html">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre a empresa</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="titulo-pagina">
+      <div class="container">
+        <p class="etiqueta">O QUE FAZEMOS</p>
+        <h1>Serviços para cuidar dos dados com método.</h1>
+        <p>Nosso trabalho se divide em três frentes que podem ser combinadas conforme a necessidade de cada projeto: organização, desempenho e acompanhamento.</p>
+      </div>
+    </section>
+
+    <section class="secao" aria-labelledby="servicos-titulo">
+      <div class="container">
+        <h2 id="servicos-titulo" class="visually-hidden">Áreas de serviço</h2>
+        <div class="servico-linha">
+          <div class="servico-cabecalho"><span class="numero">01</span><h3>Organização dos dados</h3></div>
+          <div><p>Revisamos a estrutura das tabelas e a forma como os dados são registrados. O objetivo é tornar a informação mais consistente e fácil de encontrar.</p><p>Também documentamos decisões importantes, como nomes, relações e regras de preenchimento. Isso ajuda a equipe a entender o banco mesmo depois de mudanças no projeto.</p></div>
+        </div>
+        <div class="servico-linha">
+          <div class="servico-cabecalho"><span class="numero">02</span><h3>Otimização de consultas</h3></div>
+          <div><p>Analisamos consultas usadas com frequência para descobrir onde o tempo de resposta pode melhorar. O foco está em problemas observados, não em alterar tudo de uma vez.</p><p>Quando necessário, avaliamos índices e a forma de buscar os dados. Cada ajuste deve ser acompanhado para verificar se trouxe o resultado esperado.</p></div>
+        </div>
+        <div class="servico-linha">
+          <div class="servico-cabecalho"><span class="numero">03</span><h3>Controle e acompanhamento</h3></div>
+          <div><p>Acompanhamos indicadores básicos de uso e desempenho para identificar mudanças na rotina do banco. Assim, a equipe consegue investigar sinais de lentidão com mais contexto.</p><p>Organizamos registros das verificações e das ações realizadas. Esse histórico facilita a manutenção e evita que o mesmo problema precise ser estudado do zero.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-suave" aria-labelledby="duvidas-titulo">
+      <div class="container largura-media">
+        <p class="etiqueta">DÚVIDAS COMUNS</p>
+        <h2 id="duvidas-titulo">Como esse trabalho começa?</h2>
+        <p class="introducao">Cada situação pede uma análise própria. Estas respostas resumem a forma como a IV Tech apresentaria seus serviços.</p>
+        <div class="accordion" id="duvidas">
+          <div class="accordion-item">
+            <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#resposta1" aria-expanded="true" aria-controls="resposta1">É preciso mudar todo o banco de dados?</button></h3>
+            <div id="resposta1" class="accordion-collapse collapse show" data-bs-parent="#duvidas"><div class="accordion-body">Não necessariamente. O primeiro passo é identificar uma dificuldade concreta e avaliar quais ajustes são úteis para ela.</div></div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#resposta2" aria-expanded="false" aria-controls="resposta2">O acompanhamento acontece só após um problema?</button></h3>
+            <div id="resposta2" class="accordion-collapse collapse" data-bs-parent="#duvidas"><div class="accordion-body">Não. A observação periódica ajuda a comparar o funcionamento do sistema ao longo do tempo e dá contexto às decisões de manutenção.</div></div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#resposta3" aria-expanded="false" aria-controls="resposta3">A equipe recebe um registro do que foi feito?</button></h3>
+            <div id="resposta3" class="accordion-collapse collapse" data-bs-parent="#duvidas"><div class="accordion-body">Sim. Documentar as observações e as mudanças faz parte de um processo que outras pessoas também consigam compreender.</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape"><div class="container rodape-conteudo"><span>IV Tech</span><span>Projeto acadêmico fictício • 2026</span></div></footer>
+  <script src="assets/vendor/bootstrap.bundle.min.js"></script>
+</body>
+</html>
